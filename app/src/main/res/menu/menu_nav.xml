@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_24"
+        android:title="@string/home_name" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_goods"
+            android:icon="@drawable/goods"
+            android:title="@string/goods_name" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/bill_24"
+            android:title="@string/bill_name" />
+        <item
+            android:id="@+id/nav_outlay"
+            android:icon="@drawable/outlay_24"
+            android:title="@string/outlay_name" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report_24"
+            android:title="@string/report_name" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_provider"
+            android:icon="@drawable/provider"
+            android:title="@string/provider_name" />
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/customer_24"
+            android:title="@string/customer_name" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/shop_24"
+            android:title="@string/shop_name" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_24"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/new_24"
+            android:title="@string/latest_name" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="@string/suport" />
+    </group>
+</menu>
